@@ -182,6 +182,25 @@ textarea {
     margin: 1.3vw 0;
 }
 
+.watermark {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(163, 160, 160, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watermark p {
+    color: #314584;
+    font-weight: bold;
+    margin: 0;
+}
+
 /* main_intro */
 
 
